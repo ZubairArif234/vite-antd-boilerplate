@@ -1,0 +1,74 @@
+$black-colour: #000;
+$text-name-colour: #030203;
+$text-desc-colour: #272527;
+$font-monserrat: Montserrat;
+
+.page-content {
+  margin-top: -60px;
+  .page-not-found {
+    font-family: $font-monserrat;
+    color: $black-colour;
+    font-weight: 700;
+    font-size: 70px;
+  }
+  .page-not-found-desc {
+    font-family: $font-monserrat;
+    color: $black-colour;
+    font-weight: 500;
+    font-size: 18px;
+  }
+}
+.auth-smallwave {
+  margin-top: -190px !important;
+}
+
+@media only screen and (max-width: 1200px) {
+  .page-content {
+    margin-top: -60px;
+    .page-not-found {
+      font-size: 50px;
+    }
+    .page-not-found-desc {
+      font-size: 18px;
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .page-content {
+    margin-top: 0;
+    .page-not-found {
+      font-size: 50px;
+    }
+    .page-not-found-desc {
+      font-size: 18px;
+    }
+  }
+  .auth-bigwave {
+    width: 570px;
+    margin-top: -20px !important;
+  }
+  .auth-smallwave {
+    margin-top: -10px !important;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .page-content {
+    // margin-top: 50px;
+    .page-not-found {
+      font-size: 50px;
+    }
+    .page-not-found-desc {
+      font-size: 15px;
+    }
+  }
+  .auth-bigwave {
+    width: 340px !important;
+    margin-top: -0 !important;
+  }
+  .auth-smallwave {
+    width: 170px !important;
+    margin-top: 0 !important;
+  }
+}
